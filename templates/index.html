@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../static/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordle Clone</title>
+    <script src="../static/script.js"></script>
 </head>
 <body>
     <div id="centered-container">
@@ -12,7 +13,7 @@
         <p>Hello, my name is Argel and this is a clone of the popular game Wordle. I used flask for the backend for it. Have fun!</p>
         <p style="text-align: center;">Enter your guess below!</p>
         <div id="input-container">
-            <input type="text">
+            <input type="text" id="userGuess" name="userGuess">
         </div>
     </div>
 

@@ -1,0 +1,26 @@
+body {
+    background-color: #76abae;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+#input-container {
+   margin: auto;
+   max-width: 25%;
+}
+
+
+#centered-container {
+    background-color: #eeeeee;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+
+}

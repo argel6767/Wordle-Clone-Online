@@ -5,4 +5,7 @@ app = Flask(__name__)
 
 @app.route('/startGame', methods=['GET'])
 def startGame():
-    return "Hello World!"
+    roundWord = getWord()
+    board = makeBoard(roundWord)
+    return jsonify({'roundWord': roundWord, 'board':board})
+

@@ -15,7 +15,13 @@ p {
 #input-container {
    margin: auto;
    max-width: 250px;
+   display: flex;
    
+}
+
+#userGuessLetter {
+    max-width: 20%;
+
 }
 input {
     width: 100%;

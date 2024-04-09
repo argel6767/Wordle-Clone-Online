@@ -19,7 +19,13 @@ p {
    
 }
 
-#userGuessLetter {
+.submit-containter {
+    padding-top: 20px;
+    margin: auto;
+    max-width: 120px;
+}
+
+.user_guess-letter {
     max-width: 20%;
 
 }

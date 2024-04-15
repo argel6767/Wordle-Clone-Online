@@ -1,3 +1,14 @@
+var inputContainers = document.getElementsByClassName("user-guess-letter");
+Array.from(inputContainers).forEach(function(inputContainer) {
+    inputContainers.addEventListener("keyup", function(event) {
+        if (inputContainer.value.length == inputContainer.maxLength) {
+            inputContainer.nextElementSibling.focus();
+        }
+    });
+});
+
+
+
 document.getElementById('userGuess').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
         submitGuess();
